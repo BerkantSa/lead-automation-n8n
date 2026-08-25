@@ -289,3 +289,15 @@ Before deploying this system for a real customer, the planned production improve
 This repository is a portfolio showcase of the architecture, workflow design, security decisions and results of the project.
 
 The complete production n8n workflow files and credentials remain private and are not included in the public repository.
+
+## Contact
+
+Interested in a similar automation for your business?
+
+Email: berkant.savas.dev@gmail.com
+
+## Usage
+
+All rights reserved.
+
+This repository is provided as a portfolio showcase only and is not licensed for reuse, redistribution, resale, or commercial deployment.
