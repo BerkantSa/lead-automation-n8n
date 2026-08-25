@@ -1,0 +1,9 @@
+.env
+.env.*
+.DS_Store
+node_modules/
+Lead Automation.backup.json
+lead_automation_workflow.json
+Lead Automation - Error Handler.json
+
+docker-compose.yml

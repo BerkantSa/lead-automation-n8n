@@ -1,0 +1,19 @@
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    ports:
+      - "5678:5678"
+
+    volumes:
+      - n8n_data:/home/node/.n8n
+
+    environment:
+      - N8N_SECURE_COOKIE=false
+      - N8N_ENCRYPTION_KEY=${N8N_ENCRYPTION_KEY}
+      - GENERIC_TIMEZONE=Europe/Istanbul
+      - TZ=Europe/Istanbul
+
+    restart: unless-stopped
+
+volumes:
+  n8n_data:
